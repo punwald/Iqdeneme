@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/efdal/calismalar/android-workspace/Iqdeneme/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/efdal/.android/build-cache/f339119b524057feaefff4cbcabbff91f519965c/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/efdal/calismalar/android-workspace/Iqdeneme/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/efdal/.android/build-cache/f339119b524057feaefff4cbcabbff91f519965c/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/efdal/calismalar/android-workspace/Iqdeneme/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/efdal/.android/build-cache/f339119b524057feaefff4cbcabbff91f519965c/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/efdal/calismalar/android-workspace/Iqdeneme/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/efdal/.android/build-cache/f339119b524057feaefff4cbcabbff91f519965c/output/res/layout-v21/notification_action_tombstone.xml"
+    }
+]

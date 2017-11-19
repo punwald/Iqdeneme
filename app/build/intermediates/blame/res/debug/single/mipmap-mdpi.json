@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/efdal/calismalar/android-workspace/Iqdeneme/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/home/efdal/calismalar/android-workspace/Iqdeneme/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/efdal/calismalar/android-workspace/Iqdeneme/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher_round.png",
+        "source": "/home/efdal/calismalar/android-workspace/Iqdeneme/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    }
+]
