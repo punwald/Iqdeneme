@@ -1,27 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.punwald.iqdeneme.Anasayfa">
+    android:background="@color/bg"
+    android:orientation="vertical"
+    android:weightSum="5"
+    tools:context="com.punwald.iqchallenge.Anasayfa">
 
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_weight="4"
+        android:background="@drawable/logo" />
 
-    <Button
-        android:layout_width="wrap_content"
+    <RelativeLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Oyna"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/oyna"
-        android:layout_marginTop="220dp"/>
+        android:layout_weight="1">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/ayarlar"
-        android:text="Ayarlar"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="280dp"/>
+        <Button
+            android:id="@+id/oyna"
+            android:layout_width="260dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/btnoyna" />
 
+        <Button
+            android:id="@+id/ayarlar"
+            android:layout_width="260dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/oyna"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/btnayar" />
 
-</RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-1592029610374280/2676302567">
+        </com.google.android.gms.ads.AdView>
+
+    </RelativeLayout>
+
+</LinearLayout>
